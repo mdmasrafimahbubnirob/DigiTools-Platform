@@ -2,6 +2,7 @@
 import Banner from '../components/Banner';
 import Highlight from '../components/Highlight';
 import Navbar from '../components/Navbar';
+import PremiumDigitalTools from '../components/PremiumDigitalTools';
 
 const Home = () => {
     return (
@@ -16,6 +17,8 @@ const Home = () => {
             </div>
 
             <Highlight></Highlight>
+            
+            <PremiumDigitalTools></PremiumDigitalTools>
 
         </div>
     );

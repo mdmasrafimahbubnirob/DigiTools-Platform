@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "name": "AI Resume Builder",
+    "description": "Build professional, ATS-friendly resumes in minutes with intelligent content suggestions.",
+    "price": 12,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "100+ ATS templates",
+      "AI content optimization",
+      "Export to PDF & Word",
+      "Cover letter generator"
+    ],
+    "icon": "📄"
+  },
+  {
+    "id": 2,
+    "name": "CopyWriter Pro",
+    "description": "Generate high-converting blog posts, marketing ads, and email sequences instantly.",
+    "price": 29,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "50+ AI writing templates",
+      "Built-in plagiarism checker",
+      "SEO keyword integration",
+      "Unlimited word generation"
+    ],
+    "icon": "✒️"
+  },
+  {
+    "id": 3,
+    "name": "DevAssist AI",
+    "description": "Smart inline code completion, automated refactoring, and bug detection for developers.",
+    "price": 199,
+    "period": "yearly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "Supports 30+ languages",
+      "VS Code & JetBrains plugins",
+      "Automated unit test generator",
+      "Private repository privacy"
+    ],
+    "icon": "💻"
+  },
+  {
+    "id": 4,
+    "name": "DesignCraft UI Kit",
+    "description": "Comprehensive Figma design system and Tailwind CSS UI components for web apps.",
+    "price": 79,
+    "period": "one-time",
+    "tag": "Featured",
+    "tagType": "featured",
+    "features": [
+      "500+ UI components",
+      "Figma & Tailwind source files",
+      "Lifetime updates",
+      "Unlimited commercial license"
+    ],
+    "icon": "🎨"
+  },
+  {
+    "id": 5,
+    "name": "SEO Pulse Suite",
+    "description": "All-in-one SEO toolkit for rank tracking, backlink audits, and competitor research.",
+    "price": 49,
+    "period": "monthly",
+    "tag": "Trending",
+    "tagType": "trending",
+    "features": [
+      "Daily keyword rank tracking",
+      "Automated site health audit",
+      "Competitor gap analysis",
+      "Custom PDF white-label reports"
+    ],
+    "icon": "📈"
+  },
+  {
+    "id": 6,
+    "name": "SecureShield VPN",
+    "description": "High-speed encrypted virtual private network to protect your online identity and data.",
+    "price": 48,
+    "period": "yearly",
+    "tag": "Value Choice",
+    "tagType": "value",
+    "features": [
+      "Unlimited bandwidth",
+      "Up to 10 simultaneous devices",
+      "Strict zero-logs policy",
+      "Automated kill switch"
+    ],
+    "icon": "🛡️"
+  },
+  {
+    "id": 7,
+    "name": "SocialSync Hub",
+    "description": "Schedule, publish, and measure social media performance across all major channels.",
+    "price": 19,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "Multi-channel auto-scheduling",
+      "Visual content calendar view",
+      "Unified social inbox",
+      "Smart hashtag recommendations"
+    ],
+    "icon": "📢"
+  },
+  {
+    "id": 8,
+    "name": "CloudVault Drive",
+    "description": "Encrypted cloud storage with effortless file sharing and real-time team collaboration.",
+    "price": 120,
+    "period": "yearly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "2 TB secure storage space",
+      "End-to-end zero-knowledge encryption",
+      "30-day file version history",
+      "Granular permission settings"
+    ],
+    "icon": "☁️"
+  },
+  {
+    "id": 9,
+    "name": "MailJet Automations",
+    "description": "Intuitive email marketing engine with visual drip campaign builders and smart segmentation.",
+    "price": 35,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "Drag-and-drop newsletter builder",
+      "Automated customer drip workflows",
+      "A/B testing capabilities",
+      "Dedicated IP deliverability"
+    ],
+    "icon": "✉️"
+  },
+  {
+    "id": 10,
+    "name": "LaunchPad Builder",
+    "description": "Lightning-fast no-code landing page builder optimized for maximum visitor conversions.",
+    "price": 149,
+    "period": "one-time",
+    "tag": "Top Rated",
+    "tagType": "top-rated",
+    "features": [
+      "Custom domain connection",
+      "Built-in visitor analytics",
+      "Stripe payment integration",
+      "Zero monthly hosting fees"
+    ],
+    "icon": "⚡"
+  }
+]

@@ -35,43 +35,6 @@ const Highlight = () => {
                 <p className="">Rating</p>
             </div>
 
-
-
-            {/* <div className="flex items-center gap-4">
-                <span>Left Text</span>
-
-                Vertical Line
-                <div className="w-px h-12 bg-gray-300"></div>
-
-                <span>Right Text</span>
-            </div>
-
-            <div className="flex items-center gap-6 p-4 bg-white shadow rounded-lg">
-                <div>
-                    <h3 className="font-bold">John Doe</h3>
-                    <p className="text-sm text-gray-500">Developer</p>
-                </div>
-
-                Automatically stretches to match the text height
-                <div className="w-0.5 self-stretch bg-slate-200"></div>
-
-                <div>
-                    <p className="text-sm font-semibold text-indigo-600">Available</p>
-                    <p className="text-xs text-gray-400">Full-time</p>
-                </div>
-            </div>
-
-
-            <div className="flex items-center text-sm font-medium">
-                The border-r-2 utility creates the vertical line on the right side
-                <button className="px-4 py-2 border-b-2 border-gray-200 hover:text-blue-600">
-                    Dashboard
-                </button>
-
-                <button className="px-4 py-2 hover:text-blue-600">
-                    Settings
-                </button>
-            </div> */}
         </div>
     );
 };
