@@ -2,11 +2,12 @@
 
 import { useState } from "react";
 import ToolsCard from "./ToolsCard";
+import Cart from "./Cart";
 
 
 const PremiumDigitalTools = () => {
 
-    const [activeTab, setActiveTab] = useState('products');
+    const [activeTab, setActiveTab] = useState('cart');
 
     return (
         <div>
@@ -16,7 +17,7 @@ const PremiumDigitalTools = () => {
                     {/* flex justify-center */}
                     Premium Digital Tools</h1>
 
-                <p className="py-4 text-slate-500 text-sm md:text-base lg:text-lg max-w-xl mx-auto">
+                <p className="py-4 text-slate-500 text-sm md:text-base lg:text-lg max-w-md mx-auto">
                     {/* flex justify-center */}
                     Choose from our curated collection of premium digital products designed
                     to boost your productivity and creativity.
@@ -50,7 +51,9 @@ const PremiumDigitalTools = () => {
             </div>
 
             <div className="lg:px-[8%] mt-10">
-                <ToolsCard></ToolsCard>
+                {
+                    activeTab === 'products' ? <ToolsCard></ToolsCard> : <Cart></Cart>
+                }
             </div>
 
         </div>

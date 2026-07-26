@@ -16,9 +16,9 @@ const Banner = () => {
                 <h1 className="font-extrabold text-6xl">Supercharge Your<br />
                     Digital Workflow</h1>
 
-                <p className="text-gray-400">Access premium AI tools, design assets, templates, and productivity
-                    <br />software—all in one place. Start creating faster today. <br />
-                    Explore Products
+                <p className="text-gray-400 max-w-md">Access premium AI tools, design assets, templates, and productivity
+                    software—all in one place. Start creating faster today.
+                    
                 </p>
 
                 <div className='mb-6'>
