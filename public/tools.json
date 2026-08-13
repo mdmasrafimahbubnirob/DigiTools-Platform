@@ -142,21 +142,5 @@
       "Dedicated IP deliverability"
     ],
     "icon": "✉️"
-  },
-  {
-    "id": 10,
-    "name": "LaunchPad Builder",
-    "description": "Lightning-fast no-code landing page builder optimized for maximum visitor conversions.",
-    "price": 149,
-    "period": "one-time",
-    "tag": "Top Rated",
-    "tagType": "top-rated",
-    "features": [
-      "Custom domain connection",
-      "Built-in visitor analytics",
-      "Stripe payment integration",
-      "Zero monthly hosting fees"
-    ],
-    "icon": "⚡"
   }
 ]

@@ -3,7 +3,7 @@
 const Highlight = () => {
     return (
         // lg:px-[8%]
-        <div className="md:px-[8%] grid md:grid-cols-5 bg-linear-to-r from-[#4f39f6] via-[#7226f8] to-[#9514fa] md:h-58 mt-15 content-center justify-items-center">
+        <div className="md:px-[8%] grid md:grid-cols-5 bg-linear-to-r from-[#4f39f6] via-[#7226f8] to-[#9514fa] md:h-58 mt-18 content-center justify-items-center">
 
             <div className="text-white mb-7 mt-7 space-y-2">
                 <p className="font-extrabold text-5xl">50K+</p>

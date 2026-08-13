@@ -1,6 +1,7 @@
 // import React from 'react';
 
 import { use } from "react";
+import toast from "react-hot-toast";
 
 const toolsPromise = fetch('./tools.json').then(res => res.json());
 
@@ -14,18 +15,36 @@ const tagStyles = {
     "top-rated": "bg-red-100 text-red-500 border-red-200",
 };
 
-const ToolsCard = () => {
+const ToolsCard = ({ carts, setCarts }) => {
 
     const tools = use(toolsPromise);
+
+    // const isInCart = (id) => carts.find(carts => carts.id === id)
+
+    const addToCart = (tool) => {
+
+        const isExist = carts.find(i => i.id === tool.id);
+
+        if (isExist) {
+            // alert("Item is already in cart.");
+            toast.error("Item is already in cart.")
+        } else {
+            setCarts([...carts, tool]);
+            toast.success("Added to cart.")
+        }
+
+    }
+
+    console.log(carts);
 
     // console.log(tools.length);
     return (
         <div className="grid grid-cols-1 gap-y-7 lg:gap-x-7 justify-items-center md:grid-cols-2 lg:grid-cols-3">
             {/* <h1>{tools.length}</h1> */}
             {
-                tools.map((tool,) => (
+                tools.map((tool) => (
 
-                    <div key={tool.id} className="hover:shadow-amber-500 card w-85 lg:w-auto bg-base-100 shadow-lg border-gray-300 border ">
+                    <div key={tool.id} className="hover:shadow-gray-400 card w-85 lg:w-auto bg-base-100 shadow-lg border-gray-300 border ">
                         <div className="card-body">
                             <span className={`badge badge-5sm self-end rounded-full ${tagStyles[tool.tagType]}`}>{tool.tag}</span>
                             <div className="space-y-2">
@@ -43,7 +62,7 @@ const ToolsCard = () => {
                                     {tool.description}
                                 </p>
 
-                                <span className="text-xl font-bold">${tool.price}</span><span className="text-slate-500">/Mo</span>
+                                <span className="text-xl font-bold">${tool.price}</span><span className="text-slate-500">/{tool.period}</span>
 
                             </div>
 
@@ -66,7 +85,9 @@ const ToolsCard = () => {
 
 
                                 <div className="">
-                                    <button className="hover:text-green-600 btn btn-primary rounded-full btn-block bg-linear-to-r from-[#4f39f6] via-[#7226f8] to-[#9514fa] text-white">Buy Now</button>
+                                    {/* disabled={isInCart(tool.id)} */}
+                                    <button
+                                     onClick={() => addToCart(tool)} className="hover:text-green-600 btn btn-primary rounded-full btn-block bg-linear-to-r from-[#4f39f6] via-[#7226f8] to-[#9514fa] text-white">Buy Now</button>
                                 </div>
                             </div>
                         </div>

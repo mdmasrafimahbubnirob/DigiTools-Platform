@@ -5,13 +5,13 @@ import ToolsCard from "./ToolsCard";
 import Cart from "./Cart";
 
 
-const PremiumDigitalTools = () => {
+const PremiumDigitalTools = ({carts,setCarts}) => {
 
-    const [activeTab, setActiveTab] = useState('cart');
+    const [activeTab, setActiveTab] = useState('products');
 
     return (
         <div>
-            <div className="md:mt-31 mt-15 text-center">
+            <div className="md:mt-30 mt-15 text-center">
 
                 <h1 className="font-extrabold text-5xl">
                     {/* flex justify-center */}
@@ -43,16 +43,16 @@ const PremiumDigitalTools = () => {
                             : ' hover:text-purple-600'
                             }`}
                     >
-                        Cart (2)
+                        Cart ({carts.length})
                     </button>
 
                 </div>
 
             </div>
 
-            <div className="lg:px-[8%] mt-10">
+            <div className="lg:px-[8%] mt-10 mb-30 ">
                 {
-                    activeTab === 'products' ? <ToolsCard></ToolsCard> : <Cart></Cart>
+                    activeTab === 'products' ? <ToolsCard carts = {carts} setCarts = {setCarts}></ToolsCard> : <Cart carts = {carts} setCarts = {setCarts}></Cart>
                 }
             </div>
 
