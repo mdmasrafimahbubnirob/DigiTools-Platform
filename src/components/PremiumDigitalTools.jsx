@@ -50,7 +50,7 @@ const PremiumDigitalTools = ({carts,setCarts}) => {
 
             </div>
 
-            <div className="lg:px-[8%] mt-10 mb-30 ">
+            <div className="lg:px-[8%] mt-10 mb-15 lg:mb-30 ">
                 {
                     activeTab === 'products' ? <ToolsCard carts = {carts} setCarts = {setCarts}></ToolsCard> : <Cart carts = {carts} setCarts = {setCarts}></Cart>
                 }
